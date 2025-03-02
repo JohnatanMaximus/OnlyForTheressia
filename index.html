@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            😍Happy Birthday😍
+        </title>
+        <link rel="stylesheet" type = "text/css" href="style.css"/>
+        
+    </head>
+    
+    <body>
+        <h1>
+        ❗Coba Tekan Kadonya ❗   
+        </h1>
+
+        <h2>
+        <img class="kucing" src="Item/Kucing Abdul.svg"alt = "kucing abdul">
+        <a href="/index2.html">
+        <img class="gambar_kado" src="Item/gift_2551306.png" alt = "gambar kado">
+        </a>
+        </h2>
+
+        <h3>
+            From: Someone 😉
+        </h3>
+
+        <script>
+            function transitionPage(event) {
+                event.preventDefault();
+                document.body.style.opacity = "0";
+                setTimeout(() => {
+                    window.location.href = event.target.closest("a").href;}, 300); 
+            }
+        </script>
+
+    </body>
+</html>
